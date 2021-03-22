@@ -1,4 +1,6 @@
 class Post < ApplicationRecord
-belongs_to :blogger
-belongs_to :destination  
+  belongs_to :blogger
+  belongs_to :destination  
+
+  
 end
